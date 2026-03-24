@@ -1,0 +1,73 @@
+# 1. Introduction
+
+## 1.1 Project Overview
+
+The Multi‑Vendor E‑Commerce System is a comprehensive web‑based platform designed to streamline the online shopping experience for customers, sellers, and administrators. This system provides a unified marketplace environment where multiple vendors can register, manage their products, process sales, and monitor their performance, while customers can easily browse, select, and purchase items securely through the platform.
+
+The system is engineered to support scalable operations by integrating intuitive user interfaces, robust backend services, and secure data management. It incorporates role‑based access control to ensure that each type of user (Customer, Seller, or Admin) can interact with the system according to their specific permissions and responsibilities.
+
+Key features of the system include product catalog browsing and search, shopping cart management, order placement and tracking, rating and review capabilities, seller inventory management, and an administrative dashboard with analytics and reporting.
+
+This project exemplifies the practical application of software engineering principles, including system analysis, database design, API development, frontend and backend integration, and comprehensive documentation and testing. It is developed with modern technologies to deliver performance, reliability, and scalability, making it suitable for real‑world e‑commerce applications.
+
+## 1.2 Problem Statement
+
+| **Category**            | **Description**                                                                                                                                                                                                                                                                                                                                                       |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Current Situation**   | Customers often struggle to find a unified online marketplace that supports multiple vendors. Sellers lack an integrated system to manage products, track orders, and interact with customers efficiently. Administrators cannot easily monitor system activity or generate comprehensive reports.                                                                    |
+| **Issues Identified**   | • Fragmented product listings across multiple platforms.<br>• Manual or inconsistent inventory management for sellers.<br>• No centralized order tracking or management.<br>• Limited administrative reporting and analytics.                                                                                                                                         |
+| **Impact**              | • Poor user experience for customers leading to lost sales.<br>• Sellers spend excessive time managing products manually.<br>• Admins cannot make data-driven decisions effectively.<br>• Overall operational inefficiency and potential revenue loss.                                                                                                                |
+| **Need for a Solution** | A centralized, secure, and scalable multi-vendor e-commerce system that:<br>• Allows sellers to manage inventory and orders efficiently.<br>• Enables customers to browse, shop, and review products easily.<br>• Provides administrators with dashboards, analytics, and reporting tools.<br>• Improves overall online marketplace efficiency and user satisfaction. |
+
+
+## 1.3 Project Scope
+
+**In Scope (Version 1.0):**
+- User account management (students, teachers, parents, admins)
+- Course and class management
+- Student enrollment
+- Attendance tracking
+- Assignment creation, submission, and grading
+- Grade calculation and report cards
+- Parent progress monitoring
+- Basic reporting and dashboards
+
+**Out of Scope:**
+- Cafeteria or transportation management
+- AI-powered tutoring or analytics
+- Financial/billing systems
+- Social features (forums, messaging beyond notifications)
+- Mobile native apps (responsive web only for v1.0)
+
+## 1.4 Project Objectives
+
+| # | Objective | Success Metric |
+|---|-----------|----------------|
+| 1 | Reduce administrative workload | 60% reduction in manual record-keeping time |
+| 2 | Improve parent visibility | Parents can access grades within 24 hours of recording |
+| 3 | Increase data accuracy | 99.5% accuracy in grade calculations |
+| 4 | Enable anytime access | 24/7 availability via web browser |
+| 5 | Deliver on schedule | Complete deployment in 16 weeks |
+
+## 1.5 Methodology
+
+This project follows **Agile (Scrum)** with 2-week sprints. The rationale:
+
+- Requirements will evolve as stakeholders interact with early versions
+- Teachers and administrators need to validate features incrementally
+- Small cross-functional team (5–7 members) fits Scrum well
+- Iterative delivery reduces risk of building the wrong thing
+
+## 1.6 Document Audience
+
+| Audience | What They Need |
+|----------|---------------|
+| Developers | Technical specifications, class diagrams, API design |
+| Business Analysts | Requirements, use cases, traceability |
+| Project Managers | Scope, objectives, backlog, timeline |
+| Testers | Use case flows, acceptance criteria, requirements |
+| Stakeholders | High-level overview, UI designs, objectives |
+
+---
+
+[← Back to Index](./00-index.md) | [Next: Stakeholder Analysis →](./02-stakeholder-analysis.md)
