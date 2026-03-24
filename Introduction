@@ -23,51 +23,68 @@ This project exemplifies the practical application of software engineering princ
 ## 1.3 Project Scope
 
 **In Scope (Version 1.0):**
-- User account management (students, teachers, parents, admins)
-- Course and class management
-- Student enrollment
-- Attendance tracking
-- Assignment creation, submission, and grading
-- Grade calculation and report cards
-- Parent progress monitoring
-- Basic reporting and dashboards
+- Multi-vendor support: Sellers can register, add/edit/delete products.
+- Customer functionalities: Browse products, add to cart, place orders, track orders, write reviews.
+- Admin functionalities: Manage users, monitor orders, generate reports, view analytics.
+- Authentication & authorization: Role-based access (Customer, Seller, Admin).
+- Integration of secure payment system.
+- Responsive web interface for desktop and mobile.
+- Database management and API development.
+- Testing: Functional, usability, and performance testing.
+- Documentation: Technical, User Manual, Testing Report.
 
 **Out of Scope:**
-- Cafeteria or transportation management
-- AI-powered tutoring or analytics
-- Financial/billing systems
-- Social features (forums, messaging beyond notifications)
-- Mobile native apps (responsive web only for v1.0)
+- Mobile application (native Android/iOS apps).
+- Integration with third-party logistics/shipping providers.
+- Marketing tools (ads, promotions) beyond product listing.
+- Advanced AI recommendation engine for products.
+- Multi-language support (initial version will be in English only)
 
 ## 1.4 Project Objectives
 
-| # | Objective | Success Metric |
-|---|-----------|----------------|
-| 1 | Reduce administrative workload | 60% reduction in manual record-keeping time |
-| 2 | Improve parent visibility | Parents can access grades within 24 hours of recording |
-| 3 | Increase data accuracy | 99.5% accuracy in grade calculations |
-| 4 | Enable anytime access | 24/7 availability via web browser |
-| 5 | Deliver on schedule | Complete deployment in 16 weeks |
+| **Objective**                                                                                              | **Success Metric**                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Develop a multi-vendor e-commerce platform for sellers to manage products efficiently.                     | Sellers can register, add/edit/delete products without errors; at least 95% successful product operations in testing.         |
+| Enable customers to browse, search, and purchase products easily.                                          | Customers can complete browsing, searching, and purchasing tasks successfully; 90% task completion rate in usability testing. |
+| Implement role-based authentication for Customers, Sellers, and Admins.                                    | Users can login/logout according to their role without unauthorized access; no critical security breaches during testing.     |
+| Provide administrators with a dashboard for monitoring activities, managing users, and generating reports. | Admin can view accurate user, product, and order data; reports generated correctly at least 95% of the time.                  |
+| Integrate a secure payment system for order processing.                                                    | Transactions are processed successfully with no payment errors; 100% successful test payments.                                |
+| Ensure responsive design for desktop and mobile.                                                           | Platform renders correctly on different devices; pass cross-device responsive testing.                                        |
+| Implement backend APIs and database management to support all functionalities.                             | APIs respond correctly within acceptable time (<= 2 seconds); database stores and retrieves data accurately.                  |
+| Conduct comprehensive testing (functional, usability, performance).                                        | All test cases pass at least 90%; major bugs fixed before deployment.                                                         |
+| Provide complete documentation including Technical Documentation, User Manual, and Testing Report.         | Documentation is complete, organized, and approved by team and supervisor.                                                    |
+| Deliver a scalable and maintainable system suitable for real-world operations.                             | System can handle 1000+ simultaneous users in load testing; code follows best practices for maintenance.                      |
+
 
 ## 1.5 Methodology
 
-This project follows **Agile (Scrum)** with 2-week sprints. The rationale:
+Development Approach
 
-- Requirements will evolve as stakeholders interact with early versions
-- Teachers and administrators need to validate features incrementally
-- Small cross-functional team (5–7 members) fits Scrum well
-- Iterative delivery reduces risk of building the wrong thing
+The project will follow the Agile Software Development Life Cycle (SDLC) methodology. Agile is chosen because it allows iterative development, continuous feedback, and rapid adaptation to changes, which is ideal for web-based e-commerce systems.
+
+Agile Process Flow
+| **Phase**                       | **Description**                                                                                                                                  |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Requirement Analysis**        | Gather functional and non-functional requirements from customers, sellers, and admin perspective. Define objectives, scope, and success metrics. |
+| **System Design**               | Design system architecture including frontend, backend, database, and API structure. Create ERD, DFD, and wireframes.                            |
+| **Implementation**              | Develop frontend components, backend logic, and integrate with database and APIs. Use version control (GitHub) for collaboration.                |
+| **Testing**                     | Conduct functional, usability, and performance testing. Identify and fix bugs iteratively. Ensure system meets all success metrics.              |
+| **Deployment**                  | Deploy the system on a web server. Ensure all components work in a live environment.                                                             |
+| **Maintenance & Documentation** | Monitor system performance, provide updates, and maintain technical and user documentation.                                                      |
+
 
 ## 1.6 Document Audience
 
-| Audience | What They Need |
-|----------|---------------|
-| Developers | Technical specifications, class diagrams, API design |
-| Business Analysts | Requirements, use cases, traceability |
-| Project Managers | Scope, objectives, backlog, timeline |
-| Testers | Use case flows, acceptance criteria, requirements |
-| Stakeholders | High-level overview, UI designs, objectives |
+| **Audience**                                         | **Purpose / Use of Document**                                                                                                                                      |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Project Supervisor**                               | To review and evaluate the project structure, objectives, methodology, and deliverables. Ensure the project meets academic standards.                              |
+| **Development Team (Frontend/Backend/Docs/Testers)** | To understand the project scope, system design, roles, and responsibilities. Serve as a reference for coding, implementation, and testing.                         |
+| **End Users (Customers)**                            | To guide on how to navigate the system, register, browse products, place orders, track orders, and write reviews. Provided via User Manual.                        |
+| **Sellers / Vendors**                                | To understand how to manage products, process orders, and interact with customers using the platform. Provided via User Manual.                                    |
+| **Administrators**                                   | To guide on managing users, monitoring system activities, generating reports, and using the admin dashboard. Provided via User Manual and Technical Documentation. |
+| **Future Developers / Maintenance Team**             | To understand system architecture, database design, code structure, and APIs for future updates or enhancements. Provided via Technical Documentation.             |
+
 
 ---
 
-[← Back to Index](./00-index.md) | [Next: Stakeholder Analysis →](./02-stakeholder-analysis.md)
+[← Back to README](./00-README.md) | [Next: Stakeholder Analysis →](./02-stakeholder-analysis.md)
