@@ -87,4 +87,4 @@ Agile Process Flow
 
 ---
 
-[← Back to README](README.md) | [Next: Stakeholder Analysis →](./02-stakeholder-analysis.md)
+[← Back to README](README.md) | [Next: Stakeholders Analysis →](./02-stakeholders-analysis.md)
